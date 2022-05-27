@@ -1,0 +1,235 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    height: 70px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 0.5em white;
+}
+
+body{
+    background-color: rgb(221, 244, 252);
+}
+
+h1 {
+    font-size: 47px;
+    background-color: #fff;
+    background: linear-gradient(to right, rgb(255, 199, 95) 50%, rgb(151, 229, 255) 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.01px #000;
+    margin: 5px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.ul-nav {
+    background-color: #fff;
+    display: flex;
+}
+
+.li-nav {
+    font-weight: bold;
+    list-style: none;
+    background-color: #ffff;
+    padding: 5px 10px;
+    color:#000;
+    margin-left: 15px;
+    padding: 30px;
+    text-decoration: none;
+}   
+
+.div-main {
+    background-color: rgb(255, 199, 95);
+    width: 1519px;
+    height: 600px;
+    border-radius: 0% 0% 50% 50%;
+}
+
+.img-main {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.h2-main {
+    background-color: rgb(255, 199, 95);
+    font-size: 120px;
+    margin-top: -500px;
+    margin-left: 810px;
+}
+
+.h2-saiba2 {
+    background: linear-gradient(to right, rgb(255, 199, 95) 50%, rgb(151, 229, 255) 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.01px #000;
+}
+
+.h3-main {
+    width: 400px;
+    height: 200px;
+    color: #fff;
+    background-color: rgb(255, 199, 95);
+    font-size: 50px;
+    margin-left: 880px;
+    margin-top: 30px;
+}
+.setinha-main {
+    width: 180px;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+
+.section-saiba {
+    margin-top: 100px;
+}
+
+.h2-saiba {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: -70px;
+}
+
+.h2-saiba2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: -70px;
+}
+
+.ul-saiba {
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+
+}
+
+.li-saiba {
+    font-size: x-large;
+    list-style: url('../img/rounded-check-mark-\ \(1\).png');
+}
+
+.li-saiba:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.ul-saiba2 {
+    margin-top: -240px;
+    margin-left: 850px;
+    margin-bottom: 50px;
+
+}
+
+.li-saiba2 {
+    font-size: x-large;
+    list-style: url('../img/rounded-check-mark-\ \(1\).png');
+}
+
+.li-saiba2:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.img-tela {
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.baixe-aqui {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    text-decoration: underline rgb(255, 199, 95);
+}
+
+.baixe-aqui_button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.baixe-aqui_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background: rgb(255, 199, 95);
+    border-radius: 5px;
+    color: #fff;
+    -webkit-text-stroke: 0.5px #000;
+    text-decoration: none;
+    list-style: none;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.baixe-aqui_button:hover {
+    background-color: rgb(255, 186, 57);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.duvidas-footer {
+    width: 1519px;
+    background-color: #fff;
+}
+
+.ul-footer {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-duvidas {
+    padding-left: 15px;
+}
+
+.footer-h3 {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.li-footer1 {
+    list-style: url('../img/whatsapp\ \(1\).png');
+}
+
+.li-footer2 {
+    list-style: url('../img/postbox.png');
+}
+
+.li-footer3 {
+    list-style: url('../img/smartphone.png');
+}
+
+.footer_cc {
+    width: 1519px;
+    background-color: rgb(255, 199, 95);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.autora {
+    color: black;
+}
